@@ -1,0 +1,56 @@
+.fontbox{
+	border: solid 1px:
+	width:350px;
+	padding-left: 20px;
+	padding-top: 50px;
+	background-color: red;
+	margin-left: 320px;
+	padding-bottom: 30px;
+	border-radius: 0% 0% 30% 0%
+
+	
+}
+label{
+	font-size:18px;
+	color: white;
+
+}
+input{
+	background-color: grey;
+	border: none;
+	outline:none;
+	color:red;
+	font-size: 20px;
+	border-bottom: solid 1px;
+	border-width: 2px;
+	border-color: white;
+}
+#textbox{
+	width: 250px;
+
+}
+button{
+	height: 40px;
+	width: 110px;
+	background-color: red;
+	border-radius: 30px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+body{
+	background-image: linear-gradient(black,grey)
+}
+h1{
+	font-size: 50px;
+	text-shadow: 2px 2px 2px white;
+	text-align: center;
+
+}
+img{
+	position: relative;
+	left: 600px;
+	top: 5px;
+	border-radius: 100%;
+
+}

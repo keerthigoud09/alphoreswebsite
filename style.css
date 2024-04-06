@@ -1,0 +1,168 @@
+*{
+	margin: 0PX;
+	padding: 0px;
+}
+.outerbox{
+	border:solid 1px; 
+	height: 140px;
+	display: flex;
+}
+#box1,#box2,#box3{
+	border: solid 1px;
+	height:140px;
+}
+#box1{
+	width: 200px;
+}
+#box2{
+	width: 1000px;
+	text-align: center;
+	background-color: #lavender;
+}
+#box3{
+	width: 200px;
+}
+#clgname{
+	color: purple;
+	font-size: 38px;
+}
+#text1{
+	font-size: 36px;
+	font-weight: bold;
+}
+#text2{
+	font-size: 29px;
+	font-weight: bold;
+	color: red;
+}
+#scrolltext{
+	font-size: 25px;
+	font-weight: bold;
+}
+.nav{
+	border: solid 1px;
+	height: 48px;
+}
+ul li{
+	border: solid 1px;
+	height: 48px;
+	width: 160px;
+	float: left;
+	text-align: center;
+	line-height: 48px;
+	background-color: #9dbfba;
+}
+ul{
+	list-style: none;
+}
+ul li a{
+	color: navy;
+	font-size: 20px;
+	text-decoration: none;
+}
+ul li ul li {
+	display: none;
+
+}
+ul li:hover ul li{
+	display: block;
+}
+.obox{
+	border: solid 1px;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+#in1,#in2,#in3{
+	border: solid 1px;
+	height: 350px;
+	z-index: -1;
+}
+#in1{
+	width: 550px;
+	background-image: url(img5.jpg);
+	background-repeat: no-repeat;
+	background-size: 550px 350px;
+	animation-name: imgchange;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+	10%{
+		background-image: url(img1.jpg);
+	} 
+	20%{
+		background-image: url(img3.jpg);
+	}
+	30%{
+		background-image: url(img4.jpg);
+	}
+	40%{
+		background-image: url(img6.jpg);
+	}
+	50%{
+		background-image: url(img7.jpg);
+	}
+}
+#in2,#in3{
+	width: 350px;
+}
+#Placements{
+	border: solid 1px;
+	height: 300px;
+}
+.header{
+	border: solid 1px;
+	height: 50px;
+	background-color: silver;
+	line-height: 50px;
+	padding-left: 120px;
+
+}
+#head1{
+	padding-right: 40px;
+	color: navy;
+	font size :22px;
+	text-decoration: none;
+}
+.out{
+	border: solid 1px;
+	height: 420px;
+	display: flex;
+	border-radius: 10px;
+}
+#ug,#pg{
+	border: solid 1px;
+	height: 400px;
+	border-radius: 20px;
+}
+#ug,#pg{
+	width: 900px;
+	margin: 10px;
+}
+#cource{
+	border: solid 1px;
+	height: 20px;
+	margin: 20px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    line-height: 20px;
+    background-color: #999cc9;
+    font-weight: bold;
+}
+#ug{
+	background-color:#99c5c9;
+}
+#cource:hover{
+	background-color: grey;
+}
+#pg{
+	background-color: #99c5c9;
+}
+#cource:hove{
+	background-color: grey;
+}
+ul li:hover{
+	background-color: lavender;
+}
